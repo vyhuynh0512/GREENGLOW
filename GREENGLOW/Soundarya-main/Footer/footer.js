@@ -1,27 +1,8 @@
-    // document.querySelector("#letushelp").addEventListener("click",function(){
-    //     document.querySelector("#footer1>div:nth-child(2)").visibility = "visible";
-    // })
-    // document.querySelector("#subscribe").addEventListener("submit", function(event){
-    //     event.preventDefault();
-    //     let email = document.querySelector("#email").value;
-    //     let confirm = document.querySelector("#confirm").value;
-    //     if(email == confirm){
-    //         document.querySelector("#subscribe>p:last-child").innerText = "Thank You for signing up! Success"
-    //         document.querySelector("#subscribe>p:last-child").style.color = "green";
-    //         document.querySelector("#subscribe>p:last-child").style.visibility = "visible";
-    //     }
-    //     else{
-    //         document.querySelector("#subscribe>p:last-child").innerText = "Email address do not match!"
-    //         document.querySelector("#subscribe>p:last-child").style.color = "red";
-    //         document.querySelector("#subscribe>p:last-child").style.visibility = "visible";
-    //     }
-    // })
 
-    
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('../Footer/index.html').then(res => {
+    fetch('./Footer/index.html').then(res => {
         if (!res.ok) {
             throw new Error("Lỗi mạng")
         }
@@ -40,9 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (subscribe) {
             subscribe.addEventListener("submit", function (event) {
                 event.preventDefault();
+                console.log('aaa',document.querySelector("#email").value);
                 let email = document.querySelector("#email").value;
                 let confirm = document.querySelector("#confirm").value;
-                console.log(email);
 
                 if (email == confirm) {
                     document.querySelector("#subscribe>p:last-child").innerText = "Thank You for signing up! Success"
