@@ -13,7 +13,7 @@ body {
     height: 40px;
     width: 100%;
     border-color: white;
-    background-image: url(https://cdn1.staticans.com/image/catalog/brandstore/bathandbodyworks/logo/gingham-pattern.svg);
+    background-image: url(https://khoinguonsangtao.vn/wp-content/uploads/2022/10/hinh-nen-caro.jpg);
     background-position: calc(50% - 7px) calc(50% - 21px);
     background-size: 28px 28px;
   }
@@ -28,7 +28,7 @@ body {
   #top>h1{
     padding: 0px 0px 0px 20px;
     width: 20%;
-    color: blue;
+    color: red;
     font-weight: bold;
     font-size: 20px;
     margin-top: 4px;
@@ -48,7 +48,7 @@ body {
     height: 100px;
     display: flex;
     background-color: white;
-    border-bottom: 3px solid skyblue;
+    border-bottom: 3px solid #c3d3b1;
   }
   
   #main>div:nth-child(1) {
@@ -89,7 +89,7 @@ body {
   }
   
   #nav-btn>div:nth-child(1)>input:hover {
-    border: 2px solid #61d2ff;
+    border: 2px solid #c3d3b1;
     /* border-bottom: 3px solid #f2f2f2; */
   }
   
@@ -149,7 +149,7 @@ body {
   nav a {
     display: block;
     padding: 0 10px;
-    color: black;
+    color: #c8c5c5;
     font-size: 15px;
     line-height: 60px;
     text-decoration: none;
@@ -157,9 +157,9 @@ body {
   
   nav a:hover {
     background-color: white;
-    color: rgb(66, 175, 219);
+    color: #217142;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #c3d3b1;
   }
   
   /* Hide Dropdowns by Default */
